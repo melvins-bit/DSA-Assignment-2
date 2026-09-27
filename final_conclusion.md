@@ -1,0 +1,3 @@
+# Final Conclusion
+
+Based on the execution and theoretical analysis, Quick Sort is generally more appropriate for sorting these fixed-length keys in most real-world scenarios. Even though Merge Sort guarantees an $O(n \log n)$ worst-case time complexity, Quick Sort operates in-place, meaning it uses significantly less additional memory ($O(\log n)$ vs $O(n)$). Furthermore, Quick Sort requires less data movement (swapping vs. copying to new arrays) and has better cache locality, which typically makes it faster in practice for this type of data unless absolute stability is a strict requirement.

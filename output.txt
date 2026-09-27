@@ -1,0 +1,17 @@
+--- Merge Sort Execution ---
+After merge pass: 125 324 456 218 102 389 275 147 
+After merge pass: 125 324 218 456 102 389 275 147 
+After merge pass: 125 218 324 456 102 389 275 147 
+After merge pass: 125 218 324 456 102 389 275 147 
+After merge pass: 125 218 324 456 102 389 147 275 
+After merge pass: 125 218 324 456 102 147 275 389 
+After merge pass: 102 125 147 218 275 324 389 456 
+Final Sorted Array: 102 125 147 218 275 324 389 456 
+
+--- Quick Sort Execution ---
+After partition (pivot 147): 125 102 147 218 324 389 275 456 
+After partition (pivot 102): 102 125 147 218 324 389 275 456 
+After partition (pivot 456): 102 125 147 218 324 389 275 456 
+After partition (pivot 275): 102 125 147 218 275 389 324 456 
+After partition (pivot 324): 102 125 147 218 275 324 389 456 
+Final Sorted Array: 102 125 147 218 275 324 389 456
